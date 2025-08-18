@@ -33,4 +33,5 @@ Test the algorithm
 numbers = [38, 27, 43, 3, 9, 82, 10]
 sortednumbers = mergesort(numbers)
 
-print("sorted list:", sorted_numbers)
+print("Sorted list:", sorted_numbers)
+
