@@ -11,11 +11,11 @@ class Program
 
         MergeSort(array, 0, array.Length - 1);
 
-        Console.WriteLine("\nSorted array:");
+        Console.WriteLine("\nSorted array: ");
         PrintArray(array);
     }
 
-    static void MergeSort(int[] array, int left, int right)
+    static void MergeSort(int[] array, int left, int right )
     {
         if (left < right)
         {
@@ -67,3 +67,4 @@ class Program
         Console.WriteLine();
     }
 }
+
