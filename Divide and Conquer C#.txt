@@ -45,7 +45,7 @@ class Program
 
         int iIndex = 0, jIndex = 0, k = left;
 
-        while (iIndex < n1 && jIndex < n2)
+        while (iIndex < n1 && jIndex < n2 )
         {
             if (L[iIndex] <= R[jIndex])
                 array[k++] = L[iIndex++];
@@ -67,6 +67,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
