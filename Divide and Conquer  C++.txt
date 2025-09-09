@@ -33,9 +33,9 @@ void mergeSort(int arr[], int left, int right ) {
     if(left < right ) {
         int mid = left + (right - left) / 2;
 
-        mergeSort(arr, left, mid);       // Dividee
-        mergeSort(arr, mid + 1, right);  // Dividee..
-        merge(arr, left, mid, right);    // Conquer..
+        mergeSort(arr, left, mid);       // Dividee....
+        mergeSort(arr, mid + 1, right);  // Dividee....
+        merge(arr, left, mid, right);    // Conquer....
     }
 }
 
@@ -52,6 +52,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
