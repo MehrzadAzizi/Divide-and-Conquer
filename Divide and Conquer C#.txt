@@ -23,10 +23,10 @@ class Program
 
             // Divide
             MergeSort(array, left, middle );
-            MergeSort(array, middle + 1, right);
+            MergeSort(array, middle + 1, right );
 
             // Conquer and Combine ...
-            Merge(array, left, middle, right);
+            Merge(array, left, middle, right );
         }
     }
 
@@ -67,6 +67,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
