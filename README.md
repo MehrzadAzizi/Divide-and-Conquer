@@ -2,6 +2,6 @@
 
 🧠 How It Works:
 - The array is recursively divided into halves until each sub-array has one element.
-- Then, the sub-arrays are merged back together in sorted order...
+- Then, the sub-arrays are merged back together in sorted order.
 
 Merge Sort is efficient with a time complexity of O(n log n) and is a great example of how Divide and Conquer can be applied.
