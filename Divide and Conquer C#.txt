@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         int[] array = { 38, 27, 43, 3, 9, 82, 10};
-        Console.WriteLine(" Original array:");
+        Console.WriteLine(" Original array:" );
         PrintArray(array);
 
         MergeSort(array, 0, array.Length - 1);
@@ -15,7 +15,7 @@ class Program
         PrintArray(array);
     }
 
-    static void MergeSort(int[] array, int left, int right)
+    static void MergeSort(int[] array, int left, int right )
     {
         if (left < right)
         {
@@ -30,7 +30,7 @@ class Program
         }
     }
 
-    static void Merge(int[] array, int left, int middle, int right)
+    static void Merge(int[] array, int left, int middle, int right )
     {
         int n1 = middle - left + 1;
         int n2 = right - middle;
@@ -67,6 +67,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
