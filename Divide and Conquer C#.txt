@@ -22,7 +22,7 @@ class Program
             int middle = (left + right) / 2;
 
             // Divide
-            MergeSort(array, left, middle );
+            MergeSort(array, left, middle);
             MergeSort(array, middle + 1, right);
 
             // Conquer and Combine ...
@@ -67,6 +67,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
