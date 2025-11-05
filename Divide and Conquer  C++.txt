@@ -20,7 +20,6 @@ void merge(int arr[], int left, int mid, int right) {
         if(L[i] <= R[j])
             arr[k++] = L[i++];
         else
-
             arr[k++] = R[j++];
     }
     while(i < n1)
@@ -28,8 +27,6 @@ void merge(int arr[], int left, int mid, int right) {
     while(j < n2)
         arr[k++] = R[j++];
 }
-
-
 void mergeSort(int arr[], int left, int right ) {
     if(left < right )  {
 
@@ -54,6 +51,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
