@@ -14,7 +14,6 @@ def merge_sort(arr ):
 def merge(left, right):
     result = []
     i = j = 0
-
     # Compare elements and merge
     while i < len(left) and j < len(right):
         if left[i] < right[j]:
@@ -23,17 +22,16 @@ def merge(left, right):
         else:
             result.append( right[j] )
             j += 1
-
     # Append remaining elements
     result.extend(left[i:])
     result.extend(right[j:] )
     return result
-
 Test the algorithm
 numbers = [38, 27, 43, 3, 9, 82, 10 ]
 sortednumbers = mergesort( numbers )
 
 print("Sorted List: . ", sorted_numbers)
+
 
 
 
