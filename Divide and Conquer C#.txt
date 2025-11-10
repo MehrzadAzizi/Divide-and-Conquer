@@ -9,7 +9,7 @@ class Program
         Console.WriteLine(" Original array: " );
         PrintArray(array);
         MergeSort(array, 0, array.Length -1);
-        Console.WriteLine("\nSorted .array: ");
+        Console.WriteLine("\nSorted .array:   ");
         PrintArray(array);
 
     }
@@ -68,6 +68,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
