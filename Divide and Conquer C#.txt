@@ -8,8 +8,8 @@ class Program
         int[] array = { 38, 27, 43, 3, 9, 82, 10};
         Console.WriteLine(" Original array: " );
         PrintArray(array);
-        MergeSort(array, 0, array.Length -1);
-        Console.WriteLine("\nSorted .array: ");
+        MergeSort(array, 0, array.Length -1 );
+        Console.WriteLine("\nSorted .array: " );
         PrintArray(array);
 
     }
@@ -68,6 +68,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
