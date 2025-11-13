@@ -1,6 +1,5 @@
 csharp
 using System;
-
 class Program
 {
     static void Main()
@@ -17,7 +16,6 @@ class Program
     {
         if (left < right)
         {
-
             int middle = (left + right) / 2;
 
 
@@ -68,6 +66,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
