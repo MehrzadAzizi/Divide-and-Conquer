@@ -2,8 +2,9 @@
 
 - Divide: The array is split into two halves recursively.
 - Conquer: Each half is sorted individually..
-- Combine: The sorted halves are merged together...
+- Combine: The sorted halves are merged together.....
 This is a classic example of Divide and Conquer. If you'd like to see other examples—like Binary Search, Exponentiation, or even Quick Sort.
+
 
 
 
