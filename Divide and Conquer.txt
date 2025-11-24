@@ -13,7 +13,7 @@ def merge_sort(arr ):
     return merge(lefthalf, righthalf )
 
 
-def merge(left, right):
+def merge(left, right ):
     result = []
     i = j = 0
     # Compare elements and merge
@@ -33,6 +33,7 @@ numbers = [38, 27, 43, 3, 9, 82, 10 ]
 sortednumbers = mergesort( numbers )
 
 print("Sorted List: . ", sorted_numbers)
+
 
 
 
