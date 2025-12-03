@@ -11,9 +11,9 @@ class Program
         Console.WriteLine("\nSorted .array: " ) ;
         PrintArray(array);
     }
-    static void MergeSort(int[] array, int left, int right)
+    static void MergeSort(int[] array, int left, int right )
     {
-        if (left < right)
+        if (left < right )
         {
             int middle = (left + right) / 2;
 
@@ -65,6 +65,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
