@@ -2,7 +2,7 @@ cpp
 Add change
 include <iostream>
 using namespace std;
-void merge(int arr[], int left, int mid , int right) 
+void merge(int arr[], int left, int mid , int right ) 
 {
     int n1 = mid - left + 1;
     int n2 = right - mid;
@@ -13,11 +13,11 @@ void merge(int arr[], int left, int mid , int right)
         R[j] = arr[mid + 1 +j ] ;
     int i = 0, j = 0, k = left ;
 
-    while(i < n1 && j < n2 )   {
+    while(i < n1 && j < n2 )    {
         if(L[i] <= R[j ] )
-            arr[k++] = L[i++   ;
+            arr[k++] = L[i++    ;
         else
-            arr[k++] = R[j++  ];
+            arr[k++] = R[ j++   ];
     }
     while(i < n1)
         arr[k++] = L[i++ ];
@@ -48,6 +48,7 @@ int main() {
 
     return 0;
 }
+
 
 
 
