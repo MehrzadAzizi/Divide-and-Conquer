@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         int[] array = { 38, 27, 43, 3, 9, 82, 10 } ;
-        Console.WriteLine(" Original array: "   ) ;
+        Console.WriteLine(" Original array: "  ) ;
         PrintArray(array);
         MergeSort(array, 0, array.Length -1  ) ;
         Console.WriteLine("\nSorted .array:" )  ;
@@ -65,6 +65,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
