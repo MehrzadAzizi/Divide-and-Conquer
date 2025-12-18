@@ -18,7 +18,7 @@ class Program
             int middle = (left + right ) /  2;
 
 
-            // Divide..
+            // Divide.....
             MergeSort(array, left, middle );
             MergeSort(array, middle + 1, right );
 
@@ -65,6 +65,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
