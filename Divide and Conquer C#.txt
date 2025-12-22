@@ -7,32 +7,32 @@ class Program
         int[] array = { 38, 27, 43, 3, 9, 82, 10 };
         Console.WriteLine(" Original array: "  ) ;
         PrintArray(array);
-        MergeSort(array, 0, array.Length -1  );
-        Console.WriteLine("\nSorted .array:" );
+        MergeSort(array, 0, array.Length -1   );
+        Console.WriteLine("\nSorted .array:"  );
         PrintArray(array);
     }
-    static void MergeSort(int[] array, int left, int right )
+    static void MergeSort(int[] array, int left, int right  )
     {
         if (left < right )
         {
-            int middle = (left + right ) /  2
+            int middle = (left + right  ) /  2
 ;
 
 
             // Divide.....
-            MergeSort(array, left, middle );
-            MergeSort(array, middle + 1, right );
+            MergeSort(array, left, middle  );
+            MergeSort(array, middle + 1, right  );
 
 
             // Conquer and Combine ...
-            Merge(array, left, middle, right );
+            Merge(array, left, middle, right  );
         }
     }
 
-    static void Merge(int[] array, int left, int middle, int right )
+    static void Merge(int[] array, int left, int middle, int right  )
     {
-        int n1 = middle - left + 1 ;
-        int n2 = right - middle ;
+        int n1 = middle - left + 1  ;
+        int n2 = right - middle  ;
 
         int[] L = new int[n1];
         int[] R = new int[n2];
@@ -66,6 +66,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
