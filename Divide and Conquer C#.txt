@@ -25,11 +25,11 @@ class Program
 
 
             // Conquer and Combine ...
-            Merge(array, left, middle, right  );
+            Merge(array, left, middle, right );
         }
     }
 
-    static void Merge(int[] array, int left, int middle, int right  )
+    static void Merge(int[] array, int left, int middle, int right )
     {
         int n1 = middle - left + 1  ;
         int n2 = right - middle  ;
@@ -66,6 +66,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
