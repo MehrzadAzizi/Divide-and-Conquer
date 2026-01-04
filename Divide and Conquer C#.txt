@@ -4,10 +4,10 @@ class Program
 {
     static void Main()
     {
-        int[] array = { 38, 27, 43, 3, 9, 82, 10};
-        Console.WriteLine(" Original array: ") ;
+        int[] array = { 38, 27, 43, 3, 9, 82, 10 };
+        Console.WriteLine(" Original array: " ) ;
         PrintArray(array);
-        MergeSort(array, 0, array.Length -1 );
+        MergeSort(array, 0, array.Length -1  );
         Console.WriteLine("\nSorted .array:" );
         PrintArray(array);
     }
@@ -21,11 +21,11 @@ class Program
 
             // Divide
             MergeSort(array, left, middle);
-            MergeSort(array, middle + 1, right);
+            MergeSort(array, middle + 1, right );
 
 
             // Conquer and Combine 
-            Merge(array, left, middle, right);
+            Merge(array, left, middle, right );
         }
     }
 
@@ -66,6 +66,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
