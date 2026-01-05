@@ -47,25 +47,26 @@ class Program
         while (iIndex < n1 && jIndex < n2)
         {
             if (L[iIndex] <= R[jIndex])
-                array[k++] = L[iIndex++];
+                array[k++] = L[iIndex++ ];
             else
-                array[k++] = R[jIndex++];
+                array[k++] = R[jIndex++ ];
         }
 
         while (iIndex < n1)
-            array[k++] = L[iIndex++];
+            array[k++] = L[iIndex++ ];
 
         while (jIndex < n2)
-            array[k++] = R[jIndex++];
+            array[k++] = R[jIndex++ ];
     }
 
-    static void PrintArray(int[] array)
+    static void PrintArray(int[] array )
     {
         foreach (int item in array)
             Console.Write(item +  " ;; " );
         Console.WriteLine();
     }
 }
+
 
 
 
