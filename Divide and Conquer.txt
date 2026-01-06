@@ -7,8 +7,8 @@ def merge_sort(arr):
     # Divide the array into two halves
     mid = len(arr) //2
 
-    lefthalf = mergesort(arr [ :mid] )
-    righthalf = mergesort(arr [ id:] )
+    lefthalf = mergesort(arr [ :mid]  )
+    righthalf = mergesort(arr [ id:]  )
     # Merge the sorted halves 
     return merge(lefthalf, righthalf)
 
@@ -17,7 +17,7 @@ def merge( left, right):
     result = []
     i = j = 0
     # Compare elements and merge
-    while i < len(left) and j < len( right ):
+    while i < len(left) and j < len( right  ):
         if left[i] < right[j]:
             result.append(left[i] )
             i += 1
@@ -30,9 +30,10 @@ def merge( left, right):
     return result
 Test the algorithm
 numbers = [38, 27, 43, 3, 9, 82, 10 ]
-sortednumbers = mergesort( numbers )
+sortednumbers = mergesort(  numbers  )
 
-print("Sorted List: . ", sorted_numbers)
+print("Sorted List: . ", sorted_numbers )
+
 
 
 
