@@ -22,10 +22,10 @@ def merge( left, right):
             result.append(left[i])
             i += 1
         else: 
-            result.append( right[j])
+            result.append( right[j] )
             j += 1
     # Append remaining elements
-    result.extend(left[i:])
+    result.extend(left[i:] )
     result.extend(right[j:])
     return result
 Test the algorithm
@@ -33,6 +33,7 @@ numbers = [38, 27, 43, 3, 9, 82, 10]
 sortednumbers = mergesort( numbers)
 
 print("Sorted List: . ", sorted_numbers )
+
 
 
 
