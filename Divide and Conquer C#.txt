@@ -15,17 +15,17 @@ class Program
     {
         if (left < right )
         {
-            int middle = (left + right ) /2
+            int middle = (left + right ) / 2
 ;
 
 
             // Divide..
-            MergeSort(array, left, middle );
-            MergeSort(array, middle + 1, right);
+            MergeSort(array, left, middle ) ;
+            MergeSort(array, middle + 1, right );
 
 
             // Conquer and Combine 
-            Merge(array, left, middle, Right);
+            Merge(array, left, middle, Right );
         }
     }
 
@@ -34,8 +34,8 @@ class Program
         int n1 = middle - left + 1;
         int n2 = right - middle ;
 
-        int[] L = new int[n1];
-        int[] R = new int[n2];
+        int[] L = new int[n1] ;
+        int[] R = new int[n2] ;
 
         for (int i = 0; i < n1; i++)
             L[i] = array[left + i];
@@ -66,6 +66,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
