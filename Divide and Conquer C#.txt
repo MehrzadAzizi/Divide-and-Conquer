@@ -15,21 +15,21 @@ class Program
     {
         if (left < right )
         {
-            int middle = (left + right ) / 2
+            int middle = (left + right  ) / 2
 ;
 
 
             // Divide..
-            MergeSort(array, left, middle ) ;
-            MergeSort(array, middle + 1, right );
+            MergeSort(array, left, middle  ) ;
+            MergeSort(array, middle + 1, right  );
 
 
             // Conquer and Combine 
-            Merge(array, left, middle, Right );
+            Merge(array, left, middle, Right  );
         }
     }
 
-    static void Merge(int[] array, int left ,int middle, int right )
+    static void Merge(int[] array, int left ,int middle, int right  )
     {
         int n1 = middle - left + 1;
         int n2 = right - middle ;
@@ -66,6 +66,7 @@ class Program
         Console.WriteLine();
     }
 }
+
 
 
 
