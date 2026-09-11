@@ -19,7 +19,7 @@ class Program
 ;
 
 
-            // Divide..
+            // Divide..  
             MergeSort(array, left, middle  ) ;
             MergeSort(array, middle + 1, right );
 
